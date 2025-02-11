@@ -1,15 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Taneli Manninen">
+    <script src="https://kit.fontawesome.com/0ea882bd9e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+ 
     <title>Taneli Manninen</title>
 </head>
+    
+<body class="bg-dark">
+    <section class="text-warning p-4 p-md-5 text-center">
+        <div class="container">
+            <!-- Desktop -->
+            <h1 class="display-2 d-none d-md-block mb-3">Taneli Manninen</h1>
+            <!-- Mobile -->
+            <h1 class="display-4 d-md-none mb-3">Taneli Manninen</h1>
+        </div>
+    </section>
 
-<body>
-    <h1>Tanelin Sivut</h1>
-    <p>Tervehdys</p>
+    <!--menupalkki-->
+    <nav class="navbar navbar-expand-sm bg-secondary navbar-light font-weight-bold lead border-bottom border-top border-light">
+        <div class="container">
+            <!--menunappi, "hampurilaislogo", md-breakpointista alaspäin-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--menulista-->
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav my-2 my-md-0 mx-md-3 mx-lg-5">      
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link text">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>     
+                </ul> 
+            </div>
+        </div>
+    </nav>
+        
+    <!-- henkilökortti-osio -->
+    <section class="text-white py-3 py-sm-5 text-center">
+        <div class="container">
+            <div class="d-lg-flex">
+                <!-- valokuva MOBILE -->
+                <div class="mx-auto my-auto pb-3 d-md-none">
+                    <img src="images/me/DSC09376_round_compressed.png" class="img-float w-75 w-sm-25 border border-secondary rounded-circle">
+                </div>
+                <div class="w-75 my-auto mx-auto">
+                    <h4><i class="text-warning fas fa-info-circle mr-2"></i>About Me</h4>
+                    <ul class="text-left text-dark lead list-group border border-secondary rounded">
+                        <li class="list-group-item">Information and Communication Technology, Bachelor of Engineering (<small>216/240 ECTS credits</small>)</li>
+                        <li class="list-group-item">Secondary School Graduate</li>
+                        <li class="list-group-item">25 Years Old</li>
+                        <li class="list-group-item">Helsinki</li>
+                    </ul>
+                </div>
+                <!-- valokuva DESKTOP -->
+                <div class="my-auto w-sm-50 d-none d-md-block">
+                    <img src="images/me/DSC09376_round_compressed.png" class="img-float mx-auto w-50 w-sm-25 border border-secondary rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--listaosio alkaa (mobile)-->
+    <section class="bg-secondary text-white text-center py-3 d-lg-none">
+        <div class="container">
+            <h4><i class="text-warning fas fa-desktop mr-2"></i>Skill Set</h4>
+            <div class="d-lg-flex">
+                <div class="mx-auto my-auto">
+                    <ul class="my-4 lead list-unstyled">
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>API</li>
+                        <li>Bash</li>
+                        <li>Python</li>
+                        <li>Kotlin</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+                    <ul class="mt-4 lead list-unstyled">
+                        <li>Node.js</li>
+                        <li>Figma</li>
+                        <li>PowerShell</li>
+                        <li>GraphQL</li>
+                        <li>Bootstrap</li>
+                        <li>Visual Studio Code</li>
+                        <li>Android Studio</li>
+                        <li>Visual Studio 2022</li>
+                        <li>Adobe Creative Cloud</li>
+                        <li>Wordpress</li>
+                        <li>Git</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--listaosio alkaa (desktop)-->
+    <section class="bg-secondary text-white text-center py-5 d-none d-lg-block">
+        <div class="container">
+            <h4 class="mb-2"><i class="text-warning fas fa-desktop mr-2"></i>Skill Set</h4>
+            <div class="d-lg-flex">
+                <div class="mx-auto my-auto w-50">
+                    <h5 class="text-warning my-2">Programming:</h5>
+                    <ul class="lead list-unstyled">
+                        <li>React</li>
+                        <li>React Native</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>API</li>
+                        <li>Bash</li>
+                        <li>Python</li>
+                        <li>Kotlin</li>
+                        <li>C#</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <div class="mx-auto my-auto w-50">
+                    <h5 class="text-warning my-2">Other:</h5>   
+                    <ul class="mt-4 lead list-unstyled">
+                        <li>Node.js</li>
+                        <li>Figma</li>
+                        <li>PowerShell</li>
+                        <li>GraphQL</li>
+                        <li>Bootstrap</li>
+                        <li>Visual Studio Code</li>
+                        <li>Android Studio</li>
+                        <li>Visual Studio 2022</li>
+                        <li>Adobe Creative Cloud</li>
+                        <li>Wordpress</li>
+                        <li>Git</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values-osio -->
+    <section class="text-white py-3 py-lg-5 border-bottom border-secondary">
+        <div class="container">
+            <div class="d-lg-flex mx-auto my-auto w-75 text-left">
+                <h4 class="w-50 my-auto"><i class="text-warning fas fa-user-alt mr-2"></i>Values</h4>
+                <p class="lead">
+                    I highly value individual initiative, perseverance, proactivity, and of course, creativity. I strive to develop
+                    these qualities in myself on a daily basis. <br><br>
+                    Music is my main hobby. I play in a few bands and produce my own creative projects for social media, where my creativity and energy can "bloom," 
+                    so to speak.
+                </p>    
+            </div>
+        </div>
+    </section>
+
+    <!--Video-player-osio-->
+    <section class="my-auto p-5 text-center d-flex justify-content-center">
+        <div class="embed-responsive embed-responsive-16by9" style="max-width: 600px; max-height: 338px;">
+            <iframe class="embed-responsive-item border border-secondary rounded" src="https://www.youtube.com/embed/kCoCxvHnvl8" allowfullscreen></iframe>
+        </div>
+    </section>
+        
+    <!--alalinkit-->
+    <footer class="bg-secondary text-center text-white pb-5">
+        <div class="container">
+          <section class="py-4">
+            <!--Facebook-->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.facebook.com/taneli.manninen.58"
+              role="button"
+              aria-pressed="true"
+              data-mdb-ripple-color="light"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.instagram.com/ttaneli/?hl=fi"
+              role="button"
+              data-mdb-ripple-color="light"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!--Youtube-->
+            <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="https://www.youtube.com/channel/UCX5h0MEQmSaotcZ8XCvlJYw"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-youtube"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/taneli-manninen-389188234/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/tanelimanninen"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+        </div>
+        <!-- Grid container -->
+
+        <div class="p-2">
+          <i class="fas fa-envelope mx-1"></i> taneli.manninen9@gmail.com<br>
+          Made by Taneli Manninen with Bootstrap<br>
+          2023
+        </div>
+    </footer>    
+        
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
-
+    
 </html>
