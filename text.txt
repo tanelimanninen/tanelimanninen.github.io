@@ -1,0 +1,59 @@
+<h4 class="my-4">Eld Oy</h4>
+            <p>
+                Moving Service Worker<br>
+                2024 ->
+            </p>
+            <h4 class="my-4">Laajis Oy</h4>
+                <p>
+                    Customer Service Representative / Ski Resort Worker<br>
+                    2019 - 2023
+                </p>
+            <h4 class="my-4">Bolt Works Oy</h4>
+                <p>
+                    Construction Worker / Rental Worker<br>
+                    2019 - 2020
+                </p>
+            <h4 class="my-4">Posti Oy</h4>
+                <p>
+                    Post Worker / Warehouse Worker / Seasonal Assistant<br>
+                    2017 -2018
+                </p>
+            <h4 class="my-4">AAA-Palvelut Oy</h4>
+                <p>
+                    Sales Negotiator<br>
+                    2017, 1 month
+                </p>
+            <h4 class="my-4">Restel Liikenneasemat OY Shell Muurame</h4>
+                <p>
+                    Muurame's Summer Work Project: Cafe Assistant<br>
+                    2015, 2 weeks / 60 hours
+                </p>
+                <h4 class="my-4">K-Supermarket Muurame</h4>
+                <p>
+                    Practice<br>
+                    2014,1 week
+                </p>
+
+I have listed my work history below as proof of how much experience I have from various kinds of work down the years. From an early age I have been driven to work as much as possible. I believe it has aided me on getting useful experience and skills, as well as the right kind of attitude and the financial position for better life in general.
+
+
+I mainly completed my basic education (comprehensive school) in Muurame, which ended in June 2015.
+
+I attended secondary education (upper secondary school) at Schildt High School in Jyväskylä. I graduated in December 2018. The subjects I passed in the matriculation examination were history, social studies, English, Finnish language, and mathematics.
+
+In August 2020, I started my studies at <a href="https://www.jamk.fi/en" class="text-info">Jyväskylä University of Applied Sciences (JAMK).</a>
+                    My goal is to graduate as a Bachelor of Engineering in Information and Communications Technology in 2024.
+
+The first few years at JAMK were focused on fundamental IT courses.
+
+My third year has focused on optional specialized studies in web/mobile applications, as well as professional visual content production in digital media format.
+
+For the fall of 4th year, I took the project of studying the Full Stack-open course provided by the University of Helsinki, in order to deepen my knowledge in application development as a whole.
+
+In the spring of 2024 I completed my <a
+                    href="https://urn.fi/URN:NBN:fi:amk-2024052113758"
+                    class="text-info"
+                    >thesis</a> project. The focus of the research
+                    was on usability through developing a mobile application with React Native framework.
+                    I designed and developed the application myself and used GraphQL query language
+                    for the server. Data storage was done through MongoDB.
