@@ -24,7 +24,7 @@
     </section>
 
     <!--menupalkki-->
-    <nav class="navbar navbar-expand-sm bg-secondary navbar-light lead border-bottom border-top border-light">
+    <nav class="navbar navbar-expand-md bg-secondary navbar-light lead border-bottom border-top border-light">
         <div class="container">
             <!--menunappi, "hampurilaislogo", md-breakpointista alaspäin-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navmenu">
@@ -33,7 +33,7 @@
             <!--menulista-->
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav my-2 my-md-0 mx-md-3 mx-lg-5">      
-                    <li class="nav-item active font-weight-bold">
+                    <li class="nav-item active">
                         <a href="/" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
@@ -46,6 +46,50 @@
                         <a href="contact.html" class="nav-link">Contact</a>
                     </li>     
                 </ul> 
+            </div>
+            <!--Socials-lista-->
+            <div>
+                <!--Facebook-->
+                <a
+                    class="btn btn-link btn-floating text-dark"
+                    href="https://www.facebook.com/taneli.manninen.58"
+                    role="button"
+                    aria-pressed="true"
+                    data-mdb-ripple-color="light"
+                    ><i class="fab fa-facebook-f"></i
+                ></a>
+                <!-- Instagram -->
+                <a
+                    class="btn btn-link btn-floating text-dark"
+                    href="https://www.instagram.com/ttaneli/?hl=fi"
+                    role="button"
+                    data-mdb-ripple-color="light"
+                    ><i class="fab fa-instagram"></i
+                ></a>
+                <!--Youtube-->
+                <a
+                    class="btn btn-link btn-floating text-dark"
+                    href="https://www.youtube.com/channel/UCX5h0MEQmSaotcZ8XCvlJYw"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-youtube"></i
+                ></a>
+                <!-- Linkedin -->
+                <a
+                    class="btn btn-link btn-floating text-dark"
+                    href="https://www.linkedin.com/in/taneli-manninen-389188234/"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-linkedin"></i
+                ></a>
+                <!-- Github -->
+                <a
+                    class="btn btn-link btn-floating text-dark"
+                    href="https://github.com/tanelimanninen"
+                    role="button"
+                    data-mdb-ripple-color="dark"
+                    ><i class="fab fa-github"></i
+                ></a>
             </div>
         </div>
     </nav>
@@ -61,10 +105,10 @@
                 <div class="w-75 my-lg-auto my-3 mx-auto">
                     <h4><i class="text-warning fas fa-info-circle mr-2"></i>About Me</h4>
                     <ul class="text-left text-dark lead list-group border border-secondary rounded">
-                        <li class="list-group-item">Information and Communication Technology, Bachelor of Engineering <br>(<small>228/240 ECTS credits</small>)</li>
-                        <li class="list-group-item">Secondary School Graduate</li>
-                        <li class="list-group-item">26 Years Old</li>
-                        <li class="list-group-item">Helsinki</li>
+                        <li class="list-group-item"><strong>Bachelor of engineering</strong>,<br>information and communication technology</li>
+                        <li class="list-group-item"><strong>Secondary school graduate</strong></li>
+                        <li class="list-group-item"><strong>26 years old</strong></li>
+                        <li class="list-group-item"><strong>Helsinki</strong></li>
                     </ul>
                 </div>
                 <!-- valokuva DESKTOP -->
@@ -82,74 +126,63 @@
             <div class="d-lg-flex">
                 <div class="mx-auto my-auto">
                     <ul class="my-4 lead list-unstyled">
-                        <li>React</li>
-                        <li>React Native</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>API</li>
-                        <li>Bash</li>
-                        <li>Python</li>
-                        <li>Kotlin</li>
-                        <li>C#</li>
-                        <li>SQL</li>
+                        <li>Web development</li>
+                        <li>Graphic and web design</li>
+                        <li>Digital content creation</li>
+                        <li>Mobile app development</li>
+                        <li>SEO optimization</li>
+                        <li>UX/UI fundamentals and prototyping</li>
+                        <li>Excellent communication and teamwork</li>
                     </ul>
-                    <ul class="mt-4 lead list-unstyled">
-                        <li>Node.js</li>
-                        <li>Figma</li>
-                        <li>PowerShell</li>
-                        <li>GraphQL</li>
-                        <li>Bootstrap</li>
-                        <li>Visual Studio Code</li>
-                        <li>Android Studio</li>
-                        <li>Visual Studio 2022</li>
+                    <h5 class="text-warning mt-2">Technology:</h5>
+                    <ul class="lead list-unstyled">
                         <li>Adobe Creative Cloud</li>
                         <li>Wordpress</li>
                         <li>Git</li>
-                        <li>Blender</li>
+                        <li>Node.js</li>
+                        <li>Figma</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Python</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <!--listaosio alkaa (desktop)-->
-    <section class="bg-secondary text-white text-center py-5 d-none d-lg-block">
+    <!--listaosio alkaa (desktop) d-none d-lg-block-->
+    <section class="bg-secondary align-items-start text-white text-center py-5 d-none d-lg-block">
         <div class="container">
             <h4 class="mb-2"><i class="text-warning fas fa-desktop mr-2"></i>Skill Set</h4>
             <div class="d-lg-flex">
-                <div class="mx-auto my-auto w-50">
-                    <h5 class="text-warning my-2">Programming:</h5>
+                <div class="mx-auto w-50">
+                    <h5 class="text-warning my-2">General:</h5>
                     <ul class="lead list-unstyled">
-                        <li>React</li>
-                        <li>React Native</li>
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>API</li>
-                        <li>Bash</li>
-                        <li>Python</li>
-                        <li>Kotlin</li>
-                        <li>C#</li>
-                        <li>SQL</li>
+                        <li>Web development</li>
+                        <li>Graphic and web design</li>
+                        <li>Digital content creation</li>
+                        <li>Mobile app development</li>
+                        <li>SEO optimization</li>
+                        <li>UX/UI fundamentals and prototyping</li>
+                        <li>Excellent communication and teamwork</li>
                     </ul>
                 </div>
-                <div class="mx-auto my-auto w-50">
-                    <h5 class="text-warning my-2">Other:</h5>   
+                <div class="mx-auto w-50">
+                    <h5 class="text-warning my-2">Technology:</h5>   
                     <ul class="mt-4 lead list-unstyled">
-                        <li>Node.js</li>
-                        <li>Figma</li>
-                        <li>PowerShell</li>
-                        <li>GraphQL</li>
-                        <li>Bootstrap</li>
-                        <li>Visual Studio Code</li>
-                        <li>Android Studio</li>
-                        <li>Visual Studio 2022</li>
                         <li>Adobe Creative Cloud</li>
                         <li>Wordpress</li>
                         <li>Git</li>
-                        <li>Blender</li>
+                        <li>Node.js</li>
+                        <li>Figma</li>
+                        <li>Bootstrap</li>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>Python</li>
                     </ul>
                 </div>
             </div>
